@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>//factorial
 int main()
 {
     int n,i, p=1;

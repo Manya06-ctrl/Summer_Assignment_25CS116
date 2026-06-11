@@ -1,35 +1,20 @@
 #include <stdio.h>
-
 int main()
 {
-    int start, end, i, num, remainder;
-    int sum;
-
-    printf("Enter start of range: ");
-    scanf("%d", &start);
-
-    printf("Enter end of range: ");
-    scanf("%d", &end);
-
-    printf("Armstrong numbers between %d and %d are:\n", start, end);
-
-    for (i = start; i <= end; i++)
+    int n, r, arm = 0, c;
+    printf("enter a number:");
+    scanf("%d", &n);
+    while (n > 0)
     {
-        num = i;
-        sum = 0;
 
-        while (num != 0)
-        {
-            remainder = num % 10;
-            sum = sum + (remainder * remainder * remainder);
-            num = num / 10;
-        }
-
-        if (sum == i)
-        {
-            printf("%d ", i);
-        }
+        r = n % 10;
+        arm = (r * r * r) + arm;
+        n = n / 10;
     }
-
+    if (c == arm)
+        printf("%d is an Armstrong number.", arm);
+    else
+        printf("%d not Armstrong", arm );
     return 0;
 }
+    
