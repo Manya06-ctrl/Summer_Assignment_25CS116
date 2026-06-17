@@ -1,0 +1,21 @@
+//greater of two number
+#include<iostream>
+using namespace std;
+int main(){
+    int num1,num2;
+    cout<<"enter num1,num2:";
+    cin>>num1;
+    cin>>num2;
+    if(num1>num2){
+        cout<<"num1 is greater";
+    }
+    else if(num1==num2){
+        cout<<"equal";
+    }
+    
+    
+    else{
+        cout<<"num2 is greater";
+    }
+    return 0;
+}

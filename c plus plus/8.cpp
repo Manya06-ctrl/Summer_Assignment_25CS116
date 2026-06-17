@@ -1,4 +1,4 @@
-#include <iostream>//relational opt
+ #include <iostream>//relational opt
 using namespace std;
 int main(){
     int a=6,b=3;
@@ -8,10 +8,11 @@ int main(){
     result=(a!=b);
     cout<<"the value of (a!=b):"<<result;
     //logical opt
-    cout<<&a;
+    cout<<&a;//address of a
     
 
     return 0;
+    
 
 
 }
