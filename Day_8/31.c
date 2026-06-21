@@ -1,4 +1,5 @@
-//charcter triangle
+//charcter triangle3
+
 #include <stdio.h>
 
 int main()

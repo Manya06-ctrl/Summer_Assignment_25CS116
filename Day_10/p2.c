@@ -1,4 +1,4 @@
-//print square pyramid2
+//print square pyramid2 (practice prog.)
 
 #include <stdio.h>
 int main(){

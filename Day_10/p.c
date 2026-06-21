@@ -1,4 +1,4 @@
-// square pattern with increasing number
+// square pattern with increasing number(practice prog.)
 #include <stdio.h>
 int main(){
     int n;
