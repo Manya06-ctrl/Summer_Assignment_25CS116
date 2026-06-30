@@ -1,16 +1,17 @@
-//count number of digits
+//sum of digits
 #include <iostream>
 using namespace std;
 int main(){
-    int n,count=0;
-    cout<<"enter n number of digitd";
+    int n,sum=0,rem;
+    cout<<"enter number";
     cin>>n;
     while(n!=0){
         //we use while loop when we know v limited things
+        rem=n%10;
+        sum=sum+rem;
         n=n/10;
-        count++;
     }
-    cout<<count;
+    cout<<sum;
     return 0;
 
 }
